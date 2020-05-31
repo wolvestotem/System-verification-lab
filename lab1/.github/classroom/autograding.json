@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test Bash Script (30 points)",
+      "setup": "",
+      "run": "python3 lab1_test.py test-bash",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 30
+    },
+    {
+      "name": "Test Makefile (30 points)",
+      "setup": "",
+      "run": "python3 lab1_test.py test-makefile",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 30
+    },
+    {
+      "name": "Test C++ Program (30 points)",
+      "setup": "",
+      "run": "python3 lab1_test.py test-cpp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 30
+    }
+  ]
+}
