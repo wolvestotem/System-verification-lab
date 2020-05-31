@@ -1,2 +1,8 @@
-hellomake: hellomake.c hellofunc.c
-	gcc -o hellomake hellomake.c hellofunc.c -I.
+hello.o: hellomake.c hellofunc.c hellomake.h
+	$(CC) hellomake.c hellofunc.c -o $@
+
+all: hello.o
+	./hello.o
+
+clean:
+	rm -f hello.o
