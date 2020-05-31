@@ -2,14 +2,14 @@
 
 all: test-c test-python
 
-test-c: prelab.out
-	python3 prelab_test.py ./prelab.out
+test-c: prelab
+	python3 prelab_test.py ./prelab
 
-test-python: prelab.out
+test-python: prelab
 	python3 prelab_test.py python3 prelab.py
 
-prelab.out: prelab.c
-	gcc prelab.c -o prelab.out
+prelab: prelab.c
+	gcc prelab.c -o prelab
   
 clean:
-	rm -f prelab.out result.txt
+	rm -f prelab result.txt
