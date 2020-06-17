@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test Code Coverage (50 points)",
+      "setup": "pip3 install gcovr numpy",
+      "run": "make test-tdd",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 50
+    },
+    {
+      "name": "Test C++ Program (50 points)",
+      "setup": "",
+      "run": "make test-cpp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 50
+    }
+  ]
+}
