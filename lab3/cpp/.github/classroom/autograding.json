@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test First Program (100 points)",
+      "setup": "make install",
+      "run": "python3 lab3_test.py test-lab3a",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 100
+    },
+    {
+      "name": "Test Second Program. No Cycles (50 points)",
+      "setup": "",
+      "run": "python3 lab3_test.py test-nocycle",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 50
+    },
+    {
+      "name": "Test Second Program. No Cycles (50 points)",
+      "setup": "",
+      "run": "python3 lab3_test.py test-cycle",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 50
+    }
+  ]
+}
