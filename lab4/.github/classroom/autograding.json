@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test Bipartite (50 points)",
+      "setup": "pip3 install networkx",
+      "run": "python3 lab4_test.py test-bipartite",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 50
+    },
+    {
+      "name": "Test Minimum Spanning Tree (50 points)",
+      "setup": "",
+      "run": "python3 lab4_test.py test-mst",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 50
+    },
+    {
+      "name": "Test Topological Sort (50 points)",
+      "setup": "",
+      "run": "python3 lab4_test.py test-tlsort",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 50
+    },
+    {
+      "name": "Test Topological Sort in Lexicographical Order (50 points)",
+      "setup": "",
+      "run": "python3 lab4_test.py test-tlordered",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 50
+    }
+  ]
+}
