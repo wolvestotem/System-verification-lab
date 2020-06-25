@@ -111,7 +111,7 @@ int main(int argc, char* argv[])
     fileout<<"No";
 
   for(auto t:mst){
-    cout<<t.first<<' '<<t.second<<endl;
+    // cout<<t.first<<' '<<t.second<<endl;
     fileout<<endl<<t.first<<' '<<t.second;
   }
   
