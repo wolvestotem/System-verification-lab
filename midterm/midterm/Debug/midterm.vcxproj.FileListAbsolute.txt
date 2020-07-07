@@ -1,0 +1,2 @@
+D:\Course\2rd semester\System verification lab\midterm\midterm\Debug\midterm.exe
+D:\Course\2rd semester\System verification lab\midterm\midterm\Debug\midterm.pdb

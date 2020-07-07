@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test k Nearest Neighbors (25 points)",
+      "setup": "pip3 install scikit-learn",
+      "run": "python3 lab5_test.py test-knn",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 25
+    },
+    {
+      "name": "Test Decision Tree (25 points)",
+      "setup": "",
+      "run": "python3 lab5_test.py test-dt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "Test Support Vector Machines (25 points)",
+      "setup": "",
+      "run": "python3 lab5_test.py test-svm",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "Test Neural Networks (25 points)",
+      "setup": "",
+      "run": "python3 lab5_test.py test-nn",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    }
+  ]
+}
